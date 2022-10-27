@@ -238,7 +238,18 @@ the Kafka `TestTopic` topic.
   - Kafka topic, `TestTopic`, has been added
   - Kafka consumer is running monitoring on the TestTopic`
 
-- Install the python module, ``
+- Install the python module, `kafka-python`
+```
+(.venv) $ cd [projects-dir]/infra-kafka
+(.venv) $ pip install kafka-python
+Collecting kafka-python
+  Downloading kafka_python-2.0.2-py2.py3-none-any.whl (246 kB)
+     |████████████████████████████████| 246 kB 2.9 MB/s 
+Installing collected packages: kafka-python
+Successfully installed kafka-python-2.0.2
+```
+
+- Install the python module, `Faker`
 ```
 (.venv) $ cd [projects-dir]/infra-kafka
 (.venv) $ pip install Faker
